@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- Form tag with attribute action and method -->
+    <!-- Parent tag is form -->
+    <h1>This is forms tutorial</h1>
+    <form action="#backend.php">
+      <div>
+        <label for="random">Name</label>
+        <input
+          type="text"
+          name="myName"
+          id="random"
+          placeholder="Enter your name"
+        />
+      </div>
+      <br />
+      <div>
+        <textarea
+          name="myMessage"
+          id=""
+          cols="50"
+          rows="10"
+          placeholder="Enter your message"
+        ></textarea>
+      </div>
+      <br />
+      <div>Age: <input type="number" name="myAge" id="" /></div>
+      <br />
+      <div>
+        <label for="checkbox">Are your eligible</label>
+        <input type="checkbox" name="myEligibility" id="checkbox" />
+      </div>
+      <br />
+      <div>Enter your email: <input type="email" name="myEmail" /></div>
+      <br />
+      <div>
+        Enter your password: <input type="password" name="myPassword" />
+      </div>
+
+      <br />
+      <div>
+        Gender Male: <input type="radio" name="myGender" id="" /> Female:
+        <input type="radio" name="myGender" id="" />
+        Other: <input type="radio" name="myGender" id="" />
+      </div>
+      <br />
+      <div>Date: <input type="date" name="myDate" id="" /></div>
+      <br />
+      <div>Range: <input type="range" name="myRange" id="" /></div>
+      <br />
+      <div><input type="color" name="myColor" id="" /></div>
+      <br />
+      <button type="submit">Submit</button>
+      <br />
+      <button type="reset">Reset Data</button>
+    </form>
+  </body>
+</html>
