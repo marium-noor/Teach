@@ -1,0 +1,23 @@
+body {
+  color: white;
+  background-color: darkslategray;
+  text-align: center;
+}
+
+.button1 {
+  /* To apply border to any element */
+  /* To add curve to border */
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: rgb(97, 93, 93);
+  color: black;
+}
+
+.button1:hover {
+  background-color: rgb(218, 210, 210);
+  color: black;
+}
+.heading1 {
+  font-size: 100px;
+}
