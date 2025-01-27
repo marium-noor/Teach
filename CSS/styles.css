@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(20, 19, 19);
+  color: aliceblue;
+}
+
+/* Text properties */
+h1 {
+  border: 3px solid green;
+  border-radius: 5px;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+p {
+  font-family: cursive;
+}
+
+.p1 {
+  font-weight: 300;
+}
+
+.p2 {
+  font-weight: 900;
+}
+
+h3 {
+  text-transform: lowercase;
+}
+
+/* Box model */
+.parent {
+  border: 2px solid white;
+  margin: 20px;
+  gap: 70px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.box1 {
+  background-color: red;
+  margin: 10px;
+  padding: 30px;
+}
+
+.box2 {
+  background-color: green;
+  margin: 10px;
+  padding: 50px;
+}
+
+.box3 {
+  background-color: yellow;
+  margin: 10px;
+}
+
+button {
+  padding: 5px 20px;
+  /* padding: t-b l-r; */
+  border: 2px solid white;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+}
+
+.new {
+  margin-top: 100px;
+  margin-left: 200px;
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
