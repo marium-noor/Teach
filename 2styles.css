@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.parent {
+  border: 1px solid black;
+  padding: 20px 20px 0px 20px;
+}
+.one {
+  border: 1px solid pink;
+  margin: 10px 0;
+  display: inline;
+}
+
+.two {
+  border: 1px solid green;
+  margin: 10px 0;
+  display: block;
+}
+
+.three {
+  border: 1px solid red;
+  margin: 10px 0;
+  display: inline-block;
+}
+.four {
+  border: 1px solid blue;
+  margin: 10px 0;
+  display: none;
+}
+
+.five {
+  border: 2px solid yellow;
+  /* visibility: hidden; */
+  color: #236781;
+}
+
+.opacity {
+  height: 200px;
+  width: 100px;
+  margin: 50px;
+  background-color: rgba(277, 0, 0, 0.3);
+}
+
+.units {
+  /* font-size: 100px; */
+  margin: 20px;
+  border: 5px solid black;
+}
+
+.box1 {
+  /* FOR EM */
+  /* font-size: 2em; */
+  /* for REM */
+  /* font-size: 6rem; */
+  width: 90%;
+  border: 2px solid red;
+}
+
+.vh-vw {
+  /* height: 200vh; */
+  width: 10vw;
+  border: 2px solid black;
+  background-color: aquamarine;
+}
