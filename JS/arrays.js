@@ -20,10 +20,10 @@ let shows = [
   "Bridgerton",
 ];
 // Push method: Adds an element in end
-// console.log(shows.push("Alice in borderland"));
+console.log(shows.push("Alice in borderland"));
 
 // Pop method: Delete an element from end
-// console.log(shows.pop());
+console.log(shows.pop());
 
 // toString: Converts an array to string
 console.log(shows.toString());
@@ -32,10 +32,10 @@ console.log(shows.toString());
 console.log(shows.concat(info));
 
 // Unshift: Adds and element in start
-// console.log(shows.unshift("Squid game"));
+console.log(shows.unshift("Squid game"));
 
 // Shift: Delete and element from start
-// shows.shift();
+shows.shift();
 
 // Slice: Returns a specific piece of an array
 console.log(shows.slice(1, 4));
